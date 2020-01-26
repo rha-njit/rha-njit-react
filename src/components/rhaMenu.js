@@ -4,9 +4,12 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Switch, Route, Link } from "react-router-dom";
-import NavItem from "react-bootstrap/NavItem";
 import About from "./aboutUs";
 import Home from "./home";
+import Eboard from "./eboard";
+import Committees from "./committees";
+import HallCouncils from "./hallCouncils";
+import Docs from './doc';
 
 function Menu() {
   return (
@@ -24,22 +27,25 @@ function Menu() {
                 <NavDropdown.Item as={Link} to="/about">
                   About Us
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item as={Link} to="/committees">
                   Committees
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1">
+                <NavDropdown.Item as={Link} to="/hallCouncils">
                   Hall Councils
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item as={Link} to="/docs">
+                  Documents/Forms
+                </NavDropdown.Item>
+                <NavDropdown.Item href="https://njit.campuslabs.com/engage/organization/rha">
                   Regional Business Conference
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#features">E-Board</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
+              <Nav.Link as={Link} to="/eboard">E-Board</Nav.Link>
+              <Nav.Link as={Link} to="/home">
                 Spoons
               </Nav.Link>
-              <Nav.Link href="#deets">Events</Nav.Link>
+              <Nav.Link href="https://njit.campuslabs.com/engage/organization/rha">Events</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -51,6 +57,21 @@ function Menu() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/committees">
+            <Committees />
+          </Route>
+          <Route path="/hallCouncils">
+            <HallCouncils />
+          </Route>
+          <Route path="/docs">
+            <Docs />
+          </Route>
+          <Route path="/eboard">
+            <Eboard />
+          </Route>
+          <Route path="*">
+            <Home />
           </Route>
         </Switch>
       </div>
