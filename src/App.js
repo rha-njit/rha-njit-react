@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled, { keyframes } from "styled-components";
+import { bounce } from "react-animations";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Menu from "./components/rhaMenu";
+import Home from "./components/home";
+import { BrowserRouter } from 'react-router-dom';
+import "./App.css";
 
 function App() {
+  const Bounce = styled.div`
+    animation: 2s ${keyframes`${bounce}`} infinite;
+  `;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Menu />
+      </BrowserRouter>
     </div>
   );
 }
