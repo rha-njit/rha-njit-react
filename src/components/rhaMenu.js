@@ -8,9 +8,11 @@ import { Switch, Route, Link } from "react-router-dom";
 import About from "./aboutUs";
 import Home from "./home";
 import Eboard from "./eboard";
+import Elections from "./elections";
 import Committees from "./committees";
 import HallCouncils from "./hallCouncils";
 import Docs from "./doc";
+import Both from "./both";
 
 function Menu() {
   return (
@@ -53,8 +55,12 @@ function Menu() {
                 <NavDropdown.Item as={Link} to="/hallCouncils">
                   Hall Councils
                 </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item as={Link} to="/elections">
+                  RHA Elections
+                </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link as={Link} to="/home">
+              <Nav.Link as={Link} to="/both">
                 BOTH
               </Nav.Link>
               <Nav.Link href="https://njit.campuslabs.com/engage/organization/rha">
@@ -81,8 +87,14 @@ function Menu() {
           <Route path="/docs">
             <Docs />
           </Route>
+          <Route path="/both">
+            <Both />
+          </Route>
           <Route path="/eboard">
             <Eboard />
+          </Route>
+          <Route path="/elections">
+            <Elections />
           </Route>
           <Route path="*">
             <Home />
