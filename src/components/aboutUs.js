@@ -1,4 +1,6 @@
 import React from "react";
+import styled, { keyframes } from "styled-components";
+import { flipInY } from 'react-animations';
 import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -7,10 +9,15 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Leadership from "../images/NJIT+RUN.jpg";
+import FrankieCutie from "../images/frankieCutie2.jpg";
 import ProgrammingPhoto from "../images/RHA_Homecoming.jpg";
 import "../App.css";
 
 function About() {
+  const FlipInY = styled.div`
+    animation: 4s ${keyframes`${flipInY}`};
+  `;
   return (
     <div>
       <Jumbotron>
@@ -20,7 +27,7 @@ function About() {
       </Jumbotron>
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <FlipInY><Card.Img variant="top" src={FrankieCutie} /></FlipInY>
           <Card.Body>
             <Card.Title>Advocacy</Card.Title>
             <Card.Text>
@@ -35,7 +42,7 @@ function About() {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src={ProgrammingPhoto} />
+          <FlipInY><Card.Img variant="top" src={ProgrammingPhoto} /></FlipInY>
           <Card.Body>
             <Card.Title>Programming</Card.Title>
             <Card.Text>
@@ -50,7 +57,7 @@ function About() {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <FlipInY><Card.Img variant="top" src={Leadership} /></FlipInY>
           <Card.Body>
             <Card.Title>Leadership Development</Card.Title>
             <Card.Text>
