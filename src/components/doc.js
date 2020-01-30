@@ -14,7 +14,6 @@ function Docs() {
 
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
             <Card.Title>Our Constitution</Card.Title>
             <Card.Text>
@@ -29,7 +28,7 @@ function Docs() {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+        
           <Card.Body>
             <Card.Title>Meeting Minutes</Card.Title>
             <Card.Text>
@@ -43,7 +42,7 @@ function Docs() {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          
           <Card.Body>
             <Card.Title>Budgets</Card.Title>
             <Card.Text>
@@ -63,7 +62,7 @@ function Docs() {
     <br />
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          
           <Card.Body>
             <Card.Title>Proposal Form</Card.Title>
             <Card.Text>
@@ -78,7 +77,7 @@ function Docs() {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          
           <Card.Body>
             <Card.Title>Machine Request Form</Card.Title>
             <Card.Text>
@@ -92,7 +91,7 @@ function Docs() {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          
           <Card.Body>
             <Card.Title>Kudos Form</Card.Title>
             <Card.Text>
