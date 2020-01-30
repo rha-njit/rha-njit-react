@@ -6,7 +6,7 @@ import "./home.css";
 
 function Home() {
   const FadeIn = styled.div`
-    animation: 6s ${keyframes`${fadeIn}`} infinite;
+    animation: 6s ${keyframes`${fadeIn}`};
   `;
   return (
     <div>
