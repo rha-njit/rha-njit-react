@@ -1,108 +1,127 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/CardDeck';
+import Card from "react-bootstrap/Card";
+import CardDeck from "react-bootstrap/CardDeck";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Background from "../images/backGroundBlack.png";
 import "../App.css";
+import "./home.css";
 
 function Docs() {
   return (
-    <div>
-      <Jumbotron>
-        <h1>Documents and Forms</h1>
+    <div
+      style={{
+        backgroundImage: `url(${Background})`
+      }}
+    >
+      <Jumbotron className="backg">
+        <h1 className="textColor">Documents and Forms</h1>
       </Jumbotron>
 
       <CardDeck>
-        <Card>
+        <Card
+          style={{
+            backgroundColor: "grey"
+          }}
+        >
           <Card.Body>
-            <Card.Title>Our Constitution</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+            <Card.Title className="textColor">Our Constitution</Card.Title>
+            <Card.Text className="textColor">
+              This is the Constitution of Residence Hall Association that is update by the secretary.
             </Card.Text>
-            <Button variant="primary">Learn More</Button>
+            <Button variant="dark">Learn More</Button>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted-textColor">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
-        <Card>
-        
+        <Card
+          style={{
+            backgroundColor: "grey"
+          }}
+        >
           <Card.Body>
-            <Card.Title>Meeting Minutes</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+            <Card.Title className="textColor">Meeting Minutes</Card.Title>
+            <Card.Text className="textColor">
+              These are the meeting minutes of the RHA General Body Meeting add every 
+              Friday atfer the meeting.
             </Card.Text>
-            <Button variant="primary">Learn More</Button>
+            <Button variant="dark">Learn More</Button>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted-textColor">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
-        <Card>
-          
+        <Card
+          style={{
+            backgroundColor: "grey"
+          }}
+        >
           <Card.Body>
-            <Card.Title>Budgets</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+            <Card.Title className="textColor">Budgets</Card.Title>
+            <Card.Text className="textColor">
+             This is the budget of Residence Hall Association that is 
+             update regular by the treasurer.
             </Card.Text>
-            <Button variant="primary">Learn More</Button>
+            <Button variant="dark">Learn More</Button>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted-textColor">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
       </CardDeck>
 
-    <br />
-    <br />
+      <br />
+      <br />
       <CardDeck>
-        <Card>
-          
+        <Card
+          style={{
+            backgroundColor: "grey"
+          }}
+        >
           <Card.Body>
-            <Card.Title>Proposal Form</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+            <Card.Title className="textColor">Proposal Form</Card.Title>
+            <Card.Text className="textColor">
+              Use to request money from the Residence Hall Association.
             </Card.Text>
-            <Button variant="primary">Learn More</Button>
+            <Button variant="dark">Learn More</Button>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted-textColor">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
-        <Card>
-          
+        <Card
+          style={{
+            backgroundColor: "grey"
+          }}
+        >
           <Card.Body>
-            <Card.Title>Machine Request Form</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+            <Card.Title className="textColor">Machine Request Form</Card.Title>
+            <Card.Text className="textColor">
+              Use to get Residence Hall Association machine.
+              <br />
+              <br /> 
             </Card.Text>
-            <Button variant="primary">Learn More</Button>
+            <Button variant="dark">Learn More</Button>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted-textColor">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
-        <Card>
-          
+        <Card
+          style={{
+            backgroundColor: "grey"
+          }}
+        >
           <Card.Body>
-            <Card.Title>Kudos Form</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+            <Card.Title className="textColor">Kudos Form</Card.Title>
+            <Card.Text className="textColor">
+            This is used to give good appreciation to someone who went above and beyond and desire praise for it.
             </Card.Text>
-            <Button variant="primary">Learn More</Button>
+            <Button variant="dark">Learn More</Button>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted-textColor">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
       </CardDeck>
