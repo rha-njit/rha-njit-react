@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     }
     .bg {
-    background-image: url("../images/AD1_NoLocation.png");
+    background-image: url("../images/back_ground_gray.png");
     height: 95vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,6 +10,17 @@ body, html {
     opacity: 0.5;
     }
     .center {
-        padding: 200px 0;
+        padding: 270px 0;
         text-align: center;
       }
+    .backg {
+      background-image: url("../images/back_ground_gray.png");
+      height: 35vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.5;
+      }
+    .textColor {
+      color: white;
+    }
