@@ -8,7 +8,6 @@ function Elections() {
       <Jumbotron>
         <h1>RHA Elections</h1>
         <br />
-        <h2>Hello</h2>
       </Jumbotron>
     </div>
   );

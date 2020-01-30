@@ -8,7 +8,7 @@ function Both() {
       <Jumbotron>
         <h1>Battle Of The Halls</h1>
         <br />
-        <h2>Join a Committee Today!</h2>
+        <h2>Coming Soon</h2>
       </Jumbotron>
       
     </div>
