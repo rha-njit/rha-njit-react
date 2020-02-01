@@ -8,6 +8,7 @@ import Mark from "../images/eboard/mark.jpg";
 import Matt from "../images/eboard/matt.jpg";
 import Sam from '../images/eboard/sam.jpg';
 import Sidehoe from "../images/sideHoe.png";
+import Chanales from "../images/eboard/chanales2.jpg";
 import Portia from "../images/eboard/portia.jpg";
 import Reesha from "../images/eboard/reesha.jpg";
 import Shruti from "../images/eboard/shruti.jpg";
@@ -210,7 +211,7 @@ function Eboad() {
         <Card style={{
       backgroundImage: `url(${Background})`
     }}>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src={Chanales} />
           <Card.Body>
             <Card.Title className="textColor">Tech Officer</Card.Title>
             <Card.Text className="textColor">
@@ -228,7 +229,7 @@ function Eboad() {
           <Card.Img variant="top" src={Mark} />
           <Card.Body>
             <Card.Title className="textColor">Membership Officer</Card.Title>
-            <Card.Text >
+            <Card.Text className="textColor">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
               than the first to show that equal height action.
