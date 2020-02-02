@@ -11,7 +11,8 @@ function Docs() {
   return (
     <div
       style={{
-        backgroundImage: `url(${Background})`
+        backgroundImage: `url(${Background})`,
+        overflowX : 'hidden'
       }}
     >
       <Jumbotron className="backg">

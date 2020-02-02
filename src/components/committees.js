@@ -28,7 +28,8 @@ function Committees() {
   `;
   return (
     <div style={{
-      backgroundImage: `url(${Background})`
+      backgroundImage: `url(${Background})`,
+      overflowX : 'hidden'
     }}>
       <Jumbotron className="backg">
         <h1 style={{color: "white"}}>Committees</h1>

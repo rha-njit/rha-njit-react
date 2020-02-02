@@ -26,10 +26,11 @@ function Eboad() {
 `;
   return (
     <div style={{
-      backgroundImage: `url(${Background})`
+      backgroundImage: `url(${Background})`,
+      overflowX : 'hidden'
     }}>
-      <Container>
-        <Row>
+      <Container >
+        <Row className="justify-content-between">
           <Col>
             <Card>
               <Card.Img src={Sidehoe} />
@@ -58,7 +59,7 @@ function Eboad() {
 
     <br />
       <Container>
-        <Row>
+        <Row className="justify-content-between">
           <Col>
             <Card>
               <Card.Img src={Sidehoe} />
@@ -94,7 +95,7 @@ function Eboad() {
       </Container>
 
       <br />
-      <CardDeck>
+      <CardDeck className="justify-content-between">
         <Card style={{
       backgroundImage: `url(${Background})`
     }}>
@@ -154,7 +155,7 @@ function Eboad() {
       </CardDeck>
 
       <br />
-      <CardDeck>
+      <CardDeck className="justify-content-between">
         <Card style={{
       backgroundImage: `url(${Background})`
     }}>
@@ -212,7 +213,7 @@ function Eboad() {
       </CardDeck>
 
       <br />
-      <CardDeck>
+      <CardDeck className="justify-content-between">
         <Card style={{
       backgroundImage: `url(${Background})`
     }}>
