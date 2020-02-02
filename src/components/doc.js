@@ -63,7 +63,7 @@ function Docs() {
              This is the budget of Residence Hall Association that is 
              update regular by the treasurer.
             </Card.Text>
-            <Button variant="dark">Learn More</Button>
+            <Button href="https://docs.google.com/spreadsheets/d/1g74C9duNRzHY-yIWFYSAsYTqBmFDzi3y_RtjaHObb5M/edit#gid=0" variant="dark">Learn More</Button>
           </Card.Body>
           <Card.Footer>
             <small className="text-muted-textColor">Last updated 3 mins ago</small>
