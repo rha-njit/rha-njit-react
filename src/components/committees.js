@@ -56,7 +56,7 @@ function Committees() {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted-textColor">Last updated 3 mins ago</small>
+            <small className="text-muted-textColor">Wednesday Nights: 8:30 pm</small>
           </Card.Footer>
         </Card>
         <Card style={{
@@ -95,7 +95,7 @@ function Committees() {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted-textColor">Last updated 3 mins ago</small>
+            <small className="text-muted-textColor">Wednesday Nights: 10:00 pm</small>
           </Card.Footer>
         </Card>
       </CardDeck>
