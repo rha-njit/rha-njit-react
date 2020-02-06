@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Regional Business Conference</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../RBC/assets/css/style.css">
+  <link rel="stylesheet" href="../RBC/assets/css/rbcStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .bg {
+      /* The image used */
+      background-image: url("../images/rbc/resizeRound2.png");
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+      <a href="rbc.html" class="active">Regional Business Conference</a>
+      <a href="registration.html">Registration</a>
+      <a href="conSchedule.html">Conference Schedule</a>
+      <a href="indexTransportFacSerc.html">Transportation, Facilities, and Security</a>
+      <div class="dropdown">
+        <button class="dropbtn">More
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="cityandcampus.html">Newark- The City and Campus</a>
+          <a href="conferenceTeam.html">Conference Team</a>
+          <a href="../RBC/indexFaq.html">FAQ</a>
+        </div>
+      </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="menuAppear()">
+        &#9776;
+      </a>
+    </div>
+    <header class="cd-header flex flex-column flex-center" style="background: #662D76;">
+      <div class="text-component text-center">
+        <h1 style="font-weight: bold;">Conference Schedule: February 21-23, 2020</h1>
+      </div>
+    </header>
+    <!--<table style="height: 1268px;" width="726">
+      <tbody>
+        <tr>
+          <td>-->
+            <!--Get title all on one line-->
+     <!--     <h3>Start Time</h3>
+            
+          </td>
+          <td>
+            <h3>End Time</h3>
+            
+          </td>
+          <td>
+            <h3>Event</h3>
+          </td>
+          <td>
+            <h3>Location</h3>
+          </td>
+        </tr>
+        <br>
+        <tr>
+          <td colspan="2">
+            <br>
+            <h4><span style="font-weight: 400;">Friday, </span><span style="font-weight: 400;">Feb 21</span></h4>
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr style="margin-bottom: 10px;">
+          <td><span style="font-weight: 400;">3 p.m.</span></td>
+          <td><span style="font-weight: 400;">5 p.m.</span></td>
+          <td><span style="font-weight: 400;">Check in</span></td>
+          <td><span style="font-weight: 400;">Hotel</span></td>
+        </tr>
+        <tr>
+          <td>6:00 p.m.</td>
+          <td>6:30 p.m.</td>
+          <td><span style="font-weight: 400;">Seating for Opening Ceremonies</span></td>
+          <td><span style="font-weight: 400;">Atrium</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">6:30 p.m.</span></td>
+          <td><span style="font-weight: 400;">8:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">Opening Ceremonies</span></td>
+          <td><span style="font-weight: 400;">Atrium</span></td>
+        </tr>
+        <tr>
+          <td>8:00 p.m.</td>
+          <td>9:30 p.m.</td>
+          <td><span style="font-weight: 400;">Pajama Boardroom</span></td>
+          <td><span style="font-weight: 400;">Atrium</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">9:30 p.m.</span></td>
+          <td><span style="font-weight: 400;">12:00 a.m.</span></td>
+          <td><span style="font-weight: 400;">Relaxation/Socials</span></td>
+          <td><span style="font-weight: 400;">Game room/Atrium</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">10:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">Midnight</span></td>
+          <td><span style="font-weight: 400;">Social Sponsors (Spectrum,etc.)</span></td>
+          <td><span style="font-weight: 400;">Rotation</span></td>
+        </tr>
+        <tr>-->
+  <!--Sat Events-->
+      <!-- <td colspan="2">
+            <h4><span style="font-weight: 400;">Saturday, Feb 22</span>&nbsp;</h4>
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">7:15 a.m.</span></td>
+          <td><span style="font-weight: 400;">8:15 a.m.</span></td>
+          <td><span style="font-weight: 400;">Breakfast</span></td>
+          <td><span style="font-weight: 400;">Ballroom A</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">8:30 a.m.</span></td>
+          <td><span style="font-weight: 400;">11:00 a.m.</span></td>
+          <td><span style="font-weight: 400;">Combined Boardroom</span></td>
+          <td><span style="font-weight: 400;">Tiernan Lecture Hall 1</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">8 a.m.</span></td>
+          <td><span style="font-weight: 400;">8:50 a.m.</span></td>
+          <td><span style="font-weight: 400;">ART Sessions</span></td>
+          <td><span style="font-weight: 400;">Central King Building</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">9:00 a.m.</span></td>
+          <td><span style="font-weight: 400;">9:50 a.m.</span></td>
+          <td><span style="font-weight: 400;">ART Sessions</span></td>
+          <td><span style="font-weight: 400;">Central King Building</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">10:00 a.m.</span></td>
+          <td><span style="font-weight: 400;">10:50 a.m.</span></td>
+          <td><span style="font-weight: 400;">ART Sessions</span></td>
+          <td><span style="font-weight: 400;">Central King Building</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">11:00 a.m.</span></td>
+          <td><span style="font-weight: 400;">12:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">Philanthropy</span></td>
+          <td><span style="font-weight: 400;">TBD</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">12:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">1:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">Lunch</span></td>
+          <td><span style="font-weight: 400;">Ballrooom A</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">1:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">6:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">NCC Boardroom</span></td>
+          <td><span style="font-weight: 400;">Cullimore 104</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">1:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">6:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">NRHH Boardroom</span></td>
+          <td><span style="font-weight: 400;">Cullimore 106</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">1:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">6:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">RHA Boardroom</span></td>
+          <td><span style="font-weight: 400;">Central King Building Lecture Hall</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">6:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">7:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">Relaxation/Meditation</span></td>
+          <td><span style="font-weight: 400;">TBD</span></td>
+        </tr>
+        <tr style="margin-bottom: 10px;">
+          <td><span style="font-weight: 400;">7:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">8:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">Banquet</span></td>
+          <td><span style="font-weight: 400;">Ballroom A</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">8:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">8:30 p.m.</span></td>
+          <td><span style="font-weight: 400;">Seating for Closing Ceremonies</span></td>
+          <td><span style="font-weight: 400;">Atrium</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">8:30 p.m.</span></td>
+          <td><span style="font-weight: 400;">10:00 p.m.</span></td>
+          <td>Closing Ceremonies</td>
+          <td><span style="font-weight: 400;">Atrium</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">10:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">11:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">NCC Social</span></td>
+          <td><span style="font-weight: 400;">Campus Center Rooms</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">10:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">11:00 p.m.</span></td>
+          <td>NRHH Social</td>
+          <td><span style="font-weight: 400;">Campus Center Rooms</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">10:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">11:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">RHA Social</span></td>
+          <td><span style="font-weight: 400;">Campus Center Rooms</span></td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">10:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">11:00 p.m.</span></td>
+          <td><span style="font-weight: 400;">Advisor Social</span></td>
+          <td><span style="font-weight: 400;">Highlander Pub</span></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <h4><span style="font-weight: 400;">Saturday, Feb 23</span>&nbsp;</h4>
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><span style="font-weight: 400;">7 a.m.</span></td>
+          <td><span style="font-weight: 400;">11 a.m.</span></td>
+          <td><span style="font-weight: 400;">Checkout</span></td>
+          <td><span style="font-weight: 400;">Hotel</span></td>
+        </tr>
+      </tbody>
+    </table>-->
+    <h3 style="text-align: center;">Coming Soon</h3>
+    <!-- Scripts -->
+    <script>
+      function menuAppear() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

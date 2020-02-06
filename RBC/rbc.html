@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Regional Business Conference</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../RBC/assets/css/rbcStyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body,
+    html {
+      height: 100%;
+
+    }
+
+    .bg {
+      /* The image used */
+      background-image: url("../images/rbc/resizeRound2.png");
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  </style>
+</head>
+
+<body style="background: rgba(46,49,146, 0.85);">
+  <div class="topnav" id="myTopnav">
+      <a href="rbc.html" class="active" >Regional Business Conference</a>
+      <a href="registration.html">Registration</a>
+      <a href="conSchedule.html">Conference Schedule</a>
+      <a href="indexTransportFacSerc.html">Transportation, Facilities, and Security</a>
+      <div class="dropdown">
+        <button class="dropbtn">More 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="cityandcampus.html">Newark- The City and Campus</a>
+            <a href="conferenceTeam.html">Conference Team</a>
+            <a href="../RBC/indexFaq.html">FAQ</a>
+        </div>
+      </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="menuAppear()">
+          &#9776;
+        </a>
+    </div>
+
+  <div>
+    <img src="../images/rbc/frontbackground.jpeg" width="100%" alt="">
+
+    <!--<div style="text-align:center;">
+      <a href="#"><button type="button" class="button button4">GuideBook</button></a>
+      <a href="regisration.html"><button class="button button4">Registration</button></a>
+      <a href="https://www5.njit.edu/finance/sites/finance/files/lcms/accounting/W-9%20form%20-%20NJIT.pdf">
+        <button class="button button4">W-9 Form</button></a>
+    </div>-->
+  </div>
+  <!-- Scripts -->
+  <script>
+    function menuAppear() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+  <script src="../assets/js/util.js"></script>
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

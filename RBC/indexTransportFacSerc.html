@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+		document.getElementsByTagName("html")[0].className += " js";
+	</script>
+	<link rel="stylesheet" href="../RBC/assets/css/style.css">
+	<link rel="stylesheet" href="../RBC/assets/css/rbcStyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Transportation, Facilities, and Security</title>
+</head>
+
+<body>
+	<div class="topnav" id="myTopnav">
+		<a href="rbc.html" class="active">Regional Business Conference</a>
+		<a href="registration.html">Registration</a>
+		<a href="conSchedule.html">Conference Schedule</a>
+		<a href="indexTransportFacSerc.html">Transportation, Facilities, and Security</a>
+		<div class="dropdown">
+			<button class="dropbtn">More
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="cityandcampus.html">Newark- The City and Campus</a>
+				<a href="conferenceTeam.html">Conference Team</a>
+				<a href="../RBC/indexFaq.html">FAQ</a>
+			</div>
+		</div>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="menuAppear()">
+			&#9776;
+		</a>
+	</div>
+	<header class="cd-header flex flex-column flex-center" style="background: #662D76;">
+		<div class="text-component text-center">
+			<h1 style="font-weight: bold;">Transportation, Facilities, and Security</h1>
+		</div>
+	</header>
+
+	<section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
+		<ul class="cd-faq__categories">
+			<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">Transportation</a></li>
+			<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#fac">Facilities</a></li>
+			<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#sec">Security</a></li>
+		</ul> <!-- cd-faq__categories -->
+		<div class="cd-faq__items">
+			<ul id="basics" class="cd-faq__group">
+				<li class="cd-faq__title">
+				</li>
+				<li class="cd-faq__item">
+					<a class="cd-faq__trigger" href="#0"><span class="rbcDropText">Flying</span></a>
+					<div class="cd-faq__content">
+						<div class="text-component">
+							<p>For those wishing to fly, Newark International Airport is the
+								closest airport to NJIT. From the airport to campus, it is less than a 15 minute drive
+								via I-21 N.
+								Our drivers will be providing transportation between the airport, hotel, and NJIT
+								throughout the conference.</p>
+						</div>
+					</div> <!-- cd-faq__content -->
+				</li>
+
+				<li class="cd-faq__item">
+					<a class="cd-faq__trigger" href="#0"><span class="rbcDropText">Driving</span></a>
+					<div class="cd-faq__content">
+						<div class="text-component">
+							<p>For those that intend to drive, to following address may be used to direct you to
+								conference check-in:
+								Best Western Plus Robert Treat Hotel, 50 Park Pl, Newark, NJ 07102.</p>
+						</div>
+					</div> <!-- cd-faq__content -->
+				</li>
+
+
+			</ul> <!-- cd-faq__group -->
+
+			<ul id="fac" class="cd-faq__group">
+				<li class="cd-faq__title">
+				</li>
+				<li class="cd-faq__item">
+					<a class="cd-faq__trigger" href="#0"><span class="rbcDropText">Facilities</span></a>
+					<div class="cd-faq__content">
+						<div class="text-component">
+							<p>NJIT is an ideal place for a conference like RBC because it offers a small,
+								homely atmosphere for the conference. The venues for this conference will
+								include the Campus Center, Central King Building, Tiernan Hall, and Cullimore Hall.
+								All of these spaces are equipped with Wi-Fi, charging stations, and any
+								necessary equipment for presentations.
+							</p>
+						</div>
+					</div> <!-- cd-faq__content -->
+				</li>
+			</ul> <!-- cd-faq__group -->
+
+			<ul id="sec" class="cd-faq__group">
+				<li class="cd-faq__title">
+				</li>
+				<li class="cd-faq__item">
+					<a class="cd-faq__trigger" href="#0"><span class="rbcDropText">Security</span></a>
+					<div class="cd-faq__content">
+						<div class="text-component">
+							<p>Police officers are on duty 24/7, patrolling in police cruisers,
+								dispatching and providing information at the headquarters, and
+								being posted at various buildings and areas around campus.
+								They are armed and have full powers of arrest throughout New Jersey.
+								In addition to their standard patrol routes, they provide escort and
+								transport services to those who request it. For our conference, we will
+								have a hired professional to ensure the safety of our delegates.
+								NJIT also has a blue light system throughout campus at optimal locations.
+							</p>
+						</div>
+					</div> <!-- cd-faq__content -->
+				</li>
+			</ul>
+
+		</div> <!-- cd-faq__items -->
+
+		<a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+
+		<div class="cd-faq__overlay" aria-hidden="true"></div>
+
+	</section> <!-- cd-faq -->
+	<!--Scripts-->
+	<script>
+		function menuAppear() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+	<script src="assets/js/util.js"></script> <!-- util functions -->
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>

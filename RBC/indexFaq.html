@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+		document.getElementsByTagName("html")[0].className += " js";
+	</script>
+	<link rel="stylesheet" href="../RBC/assets/css/style.css">
+	<link rel="stylesheet" href="../RBC/assets/css/rbcStyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>RBC FAQ</title>
+</head>
+
+<body>
+	<div class="topnav" id="myTopnav">
+		<a href="rbc.html" class="active">Regional Business Conference</a>
+		<a href="registration.html">Registration</a>
+		<a href="conSchedule.html">Conference Schedule</a>
+		<a href="indexTransportFacSerc.html">Transportation, Facilities, and Security</a>
+		<div class="dropdown">
+			<button class="dropbtn">More
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="cityandcampus.html">Newark- The City and Campus</a>
+				<a href="conferenceTeam.html">Conference Team</a>
+				<a href="../RBC/indexFaq.html">FAQ</a>
+			</div>
+		</div>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="menuAppear()">
+			&#9776;
+		</a>
+	</div>
+	<header class="cd-header flex flex-column flex-center" style="background: #662D76;">
+		<div class="text-component text-center">
+			<h1 style="font-weight: bold;">Frequently Asked Questions</h1>
+		</div>
+	</header>
+
+	<section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
+		<ul class="cd-faq__categories">
+			<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">Basics</a></li>
+		</ul> <!-- cd-faq__categories -->
+		<div class="cd-faq__items">
+			<ul id="basics" class="cd-faq__group">
+				<li class="cd-faq__title">
+					<h2>Basics</h2>
+				</li>
+				<!--<li class="cd-faq__item">
+					<a class="cd-faq__trigger" href="#0"><span>Where can I find places to eat food around
+							here?</span></a>
+					<div class="cd-faq__content">
+						<div class="text-component">
+							<p>The hospitality packet on GuideBook!</p>
+						</div>-->
+				<!--</div>-->
+				<!-- cd-faq__content -->
+				<!--</li>-->
+
+				<li class="cd-faq__item">
+					<a class="cd-faq__trigger" href="#0"><span class="rbcDropText">Are there any additional costs to
+							park at the
+							hotel?</span></a>
+					<div class="cd-faq__content">
+						<div class="text-component">
+							<p>Yes, $20 per night</p>
+						</div>
+					</div> <!-- cd-faq__content -->
+				</li>
+
+				<li class="cd-faq__item">
+					<a class="cd-faq__trigger" href="#0"><span class="rbcDropText">
+							When will my institution receive our invoice?</span></a>
+					<div class="cd-faq__content">
+						<div class="text-component">
+							<p>An invoice will be generated and sent to the email listed under
+								the "Contact Information" section of the registration form.
+							</p>
+						</div>
+					</div> <!-- cd-faq__content -->
+				</li>
+
+				<li class="cd-faq__item">
+					<a class="cd-faq__trigger" href="#0"><span class="rbcDropText">
+							Is there an extra fee with those using a credit card to
+							pay for registration?</span></a>
+					<div class="cd-faq__content">
+						<div class="text-component">
+							<p>No, there will be no extra charge for using a credit card.</p>
+						</div>
+					</div> <!-- cd-faq__content -->
+				</li>
+
+				<li class="cd-faq__item">
+					<a class="cd-faq__trigger" href="#0"><span class="rbcDropText">
+							How can I connect to NJIT Wifi?</span></a>
+					<div class="cd-faq__content">
+						<div class="text-component">
+							<p>The "NJITguest" wireless network is intended for outside guests and alumni visting the
+								NJIT campus.
+								This network is similar to the way you get wireless at your local coffee shop.
+								It is open, unencrypted (password exchange during authentication is encrypted).
+								It provides public Internet their access and access to NJIT's public Internet resources.
+								Guests can creat
+								their own account through a self-service portal for 24-hour access.
+								Credentials are sent via email or SMS (cell phone) text message.
+							</p>
+						</div>
+					</div> <!-- cd-faq__content -->
+				</li>
+
+				<li class="cd-faq__item">
+					<a class="cd-faq__trigger" href="#0"><span class="rbcDropText">
+							Where will housing be?</span></a>
+					<div class="cd-faq__content">
+						<div class="text-component">
+							<p>Best Western Plus Robert Treat Hotel, located in downtown Newark.</p>
+						</div>
+					</div> <!-- cd-faq__content -->
+				</li>
+			</ul> <!-- cd-faq__group -->
+
+		</div> <!-- cd-faq__items -->
+
+		<a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+
+		<div class="cd-faq__overlay" aria-hidden="true"></div>
+	</section> <!-- cd-faq -->
+	<!--Scripts-->
+	<script>
+		function menuAppear() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+	<script src="assets/js/util.js"></script> <!-- util functions -->
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
