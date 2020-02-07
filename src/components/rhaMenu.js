@@ -44,7 +44,9 @@ function Menu() {
                 <NavDropdown.Item as={Link} to="/docs">
                   Documents and Forms
                 </NavDropdown.Item>
-                <NavDropdown.Item href="https://njit.campuslabs.com/engage/organization/rha">
+                {/* ADD a link to AFS of webpage of tech officer
+                New Tech officer might have to fix this*/}
+                <NavDropdown.Item href="https://web.njit.edu/~cf258/RHA_Example/RBC/rbc.html">
                   Regional Business Conference
                 </NavDropdown.Item>
               </NavDropdown>
