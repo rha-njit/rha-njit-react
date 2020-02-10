@@ -74,7 +74,9 @@ function Committees() {
               <br />
               CapriSun - $1
             </Card.Text>
-            <Button variant="dark">RHA Grilled Cheese</Button>
+            <Button href="https://forms.gle/8Eg7E9BCJ4GUkMsd6"
+              variant="dark"
+              >RHA Grilled Cheese</Button>
           </Card.Body>
           <Card.Footer>
             <small className="text-muted-textColor">Thursday Nights: 10pm to 1am </small>
