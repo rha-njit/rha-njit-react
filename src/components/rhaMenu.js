@@ -13,6 +13,7 @@ import Committees from "./committees";
 import HallCouncils from "./hallCouncils";
 import Docs from "./doc";
 import Both from "./both";
+import Hours from "./hours";
 
 function Menu() {
   return (
@@ -37,6 +38,9 @@ function Menu() {
                 <NavDropdown.Item as={Link} to="/about">
                   About Us
                 </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/hours">
+                  Office Hours
+                </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/eboard">
                   Meet the Exective Board
                 </NavDropdown.Item>
@@ -44,7 +48,7 @@ function Menu() {
                 <NavDropdown.Item as={Link} to="/docs">
                   Documents and Forms
                 </NavDropdown.Item>
-                {/* ADD a link to AFS of webpage of tech officer
+                {/* ADD a link to AFS of webpage of tech officer AFS
                 New Tech officer might have to fix this*/}
                 <NavDropdown.Item href="https://web.njit.edu/~cf258/RHA_Example/RBC/rbc.html">
                   Regional Business Conference
@@ -95,6 +99,9 @@ function Menu() {
           </Route>
           <Route path="/eboard">
             <Eboard />
+          </Route>
+          <Route path="/hours">
+            <Hours />
           </Route>
           <Route path="/elections">
             <Elections />
