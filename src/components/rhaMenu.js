@@ -65,9 +65,10 @@ function Menu() {
               <Nav.Link as={Link} to="/both">
                 BOTH
               </Nav.Link>
-              <Nav.Link href="https://njit.campuslabs.com/engage/organization/rha">
+              {/*Need to fix external link*/}
+              {/*<Nav.Link href="https://njit.campuslabs.com/engage/organization/rha">
                 Events
-              </Nav.Link>
+              </Nav.Link>*/}
             </Nav>
           </Navbar.Collapse>
         </Navbar>
