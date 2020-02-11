@@ -45,9 +45,9 @@ function Menu() {
                   Meet the Exective Board
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/docs">
+                {/*<NavDropdown.Item as={Link} to="/docs">
                   Documents and Forms
-                </NavDropdown.Item>
+                </NavDropdown.Item>*/}
                 {/* ADD a link to AFS of webpage of tech officer AFS
                 New Tech officer might have to fix this*/}
                 <NavDropdown.Item href="https://web.njit.edu/~cf258/RBC/rbc.html">
