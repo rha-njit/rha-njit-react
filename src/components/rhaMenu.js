@@ -50,7 +50,7 @@ function Menu() {
                 </NavDropdown.Item>
                 {/* ADD a link to AFS of webpage of tech officer AFS
                 New Tech officer might have to fix this*/}
-                <NavDropdown.Item href="https://web.njit.edu/~cf258/RHA_Example/RBC/rbc.html">
+                <NavDropdown.Item href="https://web.njit.edu/~cf258/RBC/rbc.html">
                   Regional Business Conference
                 </NavDropdown.Item>
               </NavDropdown>
