@@ -6,15 +6,15 @@ import "./home.css";
 
 function Hours() {
   return (
-      
     <div
       style={{
         backgroundImage: `url(${Background})`,
-        overflowX: "hidden"
+        overflowX: "hidden",
       }}
     >
       <Jumbotron className="backg">
         <h1 className="textColor">Office Hours</h1>
+        {/* Add google caldenear here*/}
       </Jumbotron>
     </div>
   );

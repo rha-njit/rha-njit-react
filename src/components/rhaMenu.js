@@ -1,117 +1,47 @@
-import React from "react";
-import Logo from "../images/RHA_Logo_Vector.png";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import { Switch, Route, Link } from "react-router-dom";
-import About from "./aboutUs";
-import Home from "./home";
-import Eboard from "./eboard";
-import Elections from "./elections";
-import Committees from "./committees";
-import HallCouncils from "./hallCouncils";
-import Docs from "./doc";
-import Both from "./both";
-import Hours from "./hours";
+import React, { useState } from 'react';
+import { Link } from "@reach/router";
 
-function Menu() {
+function Menu({ background, hoverBackground, linkColor, navLinks, logo }) {
+
+  const [navOpen, setNavOpen] = useState(0);
+  const [hoverIndex, setHoverIndex] = useState(-1);
+
   return (
-    <div>
-      <div>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand as={Link} to="/home">
-            <img
-              alt=""
-              src={Logo}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />{" "}
-            Residence Hall Association
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto"></Nav>
-            <Nav>
-              <NavDropdown title="About" id="collasible-nav-dropdown">
-                <NavDropdown.Item as={Link} to="/about">
-                  About Us
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/hours">
-                  Office Hours
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/eboard">
-                  Meet the Exective Board
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                {/*<NavDropdown.Item as={Link} to="/docs">
-                  Documents and Forms
-                </NavDropdown.Item>*/}
-                {/* ADD a link to AFS of webpage of tech officer AFS
-                New Tech officer might have to fix this*/}
-                <NavDropdown.Item href="https://web.njit.edu/~cf258/RBC/rbc.html">
-                  Regional Business Conference
-                </NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown title="Get Involved" id="collasible-nav-dropdown">
-                <NavDropdown.Item as={Link} to="/committees">
-                  Committees
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/hallCouncils">
-                  Hall Councils
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/elections">
-                  RHA Elections
-                </NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link as={Link} to="/both">
-                BOTH
-              </Nav.Link>
-              {/*Need to fix external link*/}
-              {/*<Nav.Link href="https://njit.campuslabs.com/engage/organization/rha">
-                Events
-              </Nav.Link>*/}
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-      </div>
-      <div>
-        <Switch>
-          <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/committees">
-            <Committees />
-          </Route>
-          <Route path="/hallCouncils">
-            <HallCouncils />
-          </Route>
-          <Route path="/docs">
-            <Docs />
-          </Route>
-          <Route path="/both">
-            <Both />
-          </Route>
-          <Route path="/eboard">
-            <Eboard />
-          </Route>
-          <Route path="/hours">
-            <Hours />
-          </Route>
-          <Route path="/elections">
-            <Elections />
-          </Route>
-          <Route path="*">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
-    </div>
+    <nav className="responsive-toolbar" style={{ background: background }}>
+      <ul
+        style={{ background: background }}
+        className={navOpen ? "active" : ""}
+      >
+        <figure
+          className="image-logo"
+          onClick={() => {
+            setNavOpen(!navOpen);
+          }}
+        >
+          <img src={logo} height="40px" width="40px" alt="toolbar-logo" />
+        </figure>
+        {navLinks.map((link, index) => (
+          <li
+            key={index}
+            onMouseEnter={() => {
+              setHoverIndex(index);
+            }}
+            onMouseLeave={() => {
+              setHoverIndex(-1);
+            }}
+            style={{
+              background: hoverIndex === index ? hoverBackground || "#999" : "",
+            }}
+          >
+            <Link to={link.path} style={{ color: linkColor }}>
+              {" "}
+              {link.text}
+              <i className={link.icon} />
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 }
 export default Menu;
