@@ -81,9 +81,7 @@ function Eboad() {
                 backgroundImage: `url(${Background})`
               }}
             >
-              <FadeInDown>
                 <Card.Img variant="top" src={Sam} />
-              </FadeInDown>
               <Card.Body>
                 <Card.Title className="textColor">President</Card.Title>
                 <Card.Text className="textColor">
@@ -121,9 +119,9 @@ function Eboad() {
             backgroundImage: `url(${Background})`
           }}
         >
-          <FadeInDown>
+         
             <Card.Img variant="top" src={Reesha} />
-          </FadeInDown>
+          
           <Card.Body>
             <Card.Title className="textColor">
               Vice President of Programming
@@ -152,9 +150,9 @@ function Eboad() {
             backgroundImage: `url(${Background})`
           }}
         >
-          <FadeInDown>
+          
             <Card.Img variant="top" src={Austin} />
-          </FadeInDown>
+          
           <Card.Body>
             <Card.Title className="textColor">
               Vice President of Administration
