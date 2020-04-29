@@ -1,20 +1,20 @@
-import Menu from "./components/rhaMenu";
 import { Router, Link } from "@reach/router";
-import Logo from "./images/RHA_Logo_Vector.png";
-import Home from "./pages/home";
+
+import "./index.css";
 import About from "./pages/about";
 import Eboard from "./pages/eboard";
 import Committees from "./pages/committees";
 import HallCouncils from "./pages/hallCouncils";
-import "./index.css";
-import { ReactComponent as CaretIcon } from "./icons/caret.svg";
-import { ReactComponent as CogIcon } from "./icons/cog.svg";
-import { ReactComponent as ChevronIcon } from "./icons/chevron.svg";
+import DropDownMenuHome from "./components/dropDownMenuHome";
+
+import { ReactComponent as PlanIcon } from "./icons/plan.svg";
 import { ReactComponent as ArrowIcon } from "./icons/arrow.svg";
-import { ReactComponent as BoltIcon } from "./icons/bolt.svg";
+import { ReactComponent as CaretIcon } from "./icons/caret.svg";
+import { ReactComponent as ChevronIcon } from "./icons/chevron.svg";
 import { ReactComponent as InstagramIcon } from "./icons/instagram.svg";
 import { ReactComponent as HomeIcon } from "./icons/house-black-24dp.svg";
 import { ReactComponent as PeopleIcon } from "./icons/people-black-24dp.svg";
+import { ReactComponent as EachHallIcon } from "./icons/apartment-black-24dp.svg";
 import { ReactComponent as OfficeIcon } from "./icons/date_range-black-24dp.svg";
 import { ReactComponent as HallIcon } from "./icons/location_city-black-24dp.svg";
 import { ReactComponent as PlaneIcon } from "./icons/flight_takeoff-black-24dp.svg";
@@ -24,9 +24,14 @@ import { CSSTransition } from "react-transition-group";
 
 function App() {
   return (
+
     <div className="App">
+      
       <Navbar>
-        <NavItem icon={<HomeIcon />} />
+        
+        <NavItem icon={<HomeIcon />}>
+          <DropDownMenuHome></DropDownMenuHome>
+        </NavItem>
         <NavItem icon={<InstagramIcon />} />
         <NavItem icon={<OfficeIcon />} />
 
@@ -58,9 +63,9 @@ function NavItem(props) {
 
   return (
     <li className="nav-item">
-      <a className="icon-button" onClick={() => setOpen(!open)}>
+      <span className="icon-button" onClick={() => setOpen(!open)}>
         {props.icon}
-      </a>
+      </span>
 
       {open && props.children}
     </li>
@@ -83,11 +88,11 @@ function DropdownMenu() {
 
   function DropdownItem(props) {
     return (
-      <a className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
+      <div className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
         <span className="icon-button">{props.leftIcon}</span>
         {props.children}
         <span className="icon-right">{props.rightIcon}</span>
-      </a>
+      </div>
     );
   }
 
@@ -109,12 +114,12 @@ function DropdownMenu() {
             Hall Councils
           </DropdownItem>
           <DropdownItem
-            leftIcon={<CogIcon />}
+            leftIcon={<PeopleIcon />}
             rightIcon={<ChevronIcon />}
             goToMenu="committees">
             Committees
           </DropdownItem>
-          <DropdownItem leftIcon={<PeopleIcon />}><Link to="/eboard">Documents/Forms</Link></DropdownItem>
+          <DropdownItem leftIcon={<PlanIcon />}><Link to="/eboard">Documents/Forms</Link></DropdownItem>
 
         </div>
       </CSSTransition>
@@ -129,7 +134,7 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Committees</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}>Programming Committee</DropdownItem>
+          <DropdownItem leftIcon={<PlanIcon />}>Programming Committee</DropdownItem>
           <DropdownItem leftIcon={<PlaneIcon />}>Delegation Committee</DropdownItem>
         </div>
       </CSSTransition>
@@ -144,7 +149,11 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Hall Councils</h2>
           </DropdownItem>
-          <DropdownItem leftIcon="🦘">Cypress</DropdownItem>
+          <DropdownItem leftIcon={<EachHallIcon />}><Link to="/">Cypress Hall Council</Link></DropdownItem>
+          <DropdownItem leftIcon={<EachHallIcon />}>Redwood Hall Council</DropdownItem>
+          <DropdownItem leftIcon={<EachHallIcon />}>Laurel Hall Council</DropdownItem>
+          <DropdownItem leftIcon={<EachHallIcon />}>Oak Hall Council</DropdownItem>
+          <DropdownItem leftIcon={<EachHallIcon />}>Honors Hall Council</DropdownItem>
         </div>
       </CSSTransition>
       
