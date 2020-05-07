@@ -5,7 +5,9 @@ import About from "./pages/about";
 import Eboard from "./pages/eboard";
 import Committees from "./pages/committees";
 import HallCouncils from "./pages/hallCouncils";
-import DropDownMenuHome from "./components/dropDownMenuHome";
+import NavItemHome from "./components/navItemHome";
+import NavItemInstagram from "./components/navItemInstagram";
+import NavItemOfficeHours from "./components/navItemOfficeHours";
 
 import { ReactComponent as PlanIcon } from "./icons/plan.svg";
 import { ReactComponent as ArrowIcon } from "./icons/arrow.svg";
@@ -29,11 +31,9 @@ function App() {
       
       <Navbar>
         
-        <NavItem icon={<HomeIcon />}>
-          <DropDownMenuHome></DropDownMenuHome>
-        </NavItem>
-        <NavItem icon={<InstagramIcon />} />
-        <NavItem icon={<OfficeIcon />} />
+        <NavItemHome icon={<HomeIcon />} />
+        <NavItemInstagram icon={<InstagramIcon />} />
+        <NavItemOfficeHours icon={<OfficeIcon />} />
 
         <NavItem icon={<CaretIcon />}>
           <DropdownMenu></DropdownMenu>
