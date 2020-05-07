@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #4f5757;
+  background: #323636;
   font-family: roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -78,6 +78,7 @@ a {
   filter: brightness(1.2);
 }
 
+.icon-right svg,
 .icon-button svg { 
   fill: var(--text-color);
   width: 20px;
@@ -136,6 +137,10 @@ a {
 .menu-primary-enter {
   position: absolute;
   transform: translateX(-110%);
+  box-sizing: border-box;
+  padding: 1rem;
+  top: 0;
+  left: 0;
 }
 .menu-primary-enter-active {
   transform: translateX(0%);
