@@ -2,7 +2,8 @@ import React from "react";
 import "./aboutStyle.css";
 import Logo from "../images/RHA_Logo_Vector.png";
 import PlanIcon from "../icons/plan.svg";
-import GrillIcon from "../icons/fastfood-black-24dp.svg";
+import CheeseIcon from "../icons/cheese.svg";
+import NatureIcon from "../icons/nature.svg";
 import BothIcon from "../icons/sports-and-competition.svg";
 
 function About() {
@@ -15,7 +16,7 @@ function About() {
      <main>
         <div className="container">
           <div className="card">
-            <div className="imgBx" data-text="events">
+            <div className="imgBx" data-text="Events">
               <img src={PlanIcon} alt="icon" />
             </div>
             <div className="content">
@@ -26,7 +27,7 @@ function About() {
           </div>
 
           <div className="card">
-            <div className="imgBx" data-text="both">
+            <div className="imgBx" data-text="Both">
               <img src={BothIcon} alt="icon" />
             </div>
             <div className="content">
@@ -37,19 +38,19 @@ function About() {
           </div>
 
           <div className="card">
-            <div className="imgBx" data-text="team">
-              <img src={GrillIcon} alt="icon" />
+            <div className="imgBx" data-text="Roots">
+              <img src={NatureIcon} alt="icon" />
             </div>
             <div className="content">
-              <h3>Team Building</h3>
+              <h3>About Us</h3>
               <p>Check out RHA upcoming events.</p>
               <a href="/"> Learn More</a>
             </div>
           </div>
 
           <div className="card">
-            <div className="imgBx" data-text="grilled">
-              <img src={GrillIcon} alt="icon" />
+            <div className="imgBx" data-text="Grilled">
+              <img src={CheeseIcon} alt="icon" />
             </div>
             <div className="content">
               <h3>Grilled Cheese</h3>
@@ -60,7 +61,7 @@ function About() {
         </div>
       </main>
       <footer>
-        <h3>Discord</h3>
+        <h1>Discord Chat</h1>
       </footer>
     </div>
   );
