@@ -3,7 +3,7 @@ import "./aboutStyle.css";
 import Logo from "../images/RHA_Logo_Vector.png";
 import PlanIcon from "../icons/plan.svg";
 import GrillIcon from "../icons/fastfood-black-24dp.svg";
-import BothIcon from "../icons/emoji_events-black-24dp.svg";
+import BothIcon from "../icons/sports-and-competition.svg";
 
 function About() {
   return (
@@ -12,7 +12,6 @@ function About() {
         <img src={Logo} alt="RHA Logo" width="300" height="300"/>
         <h1>Residence Hall Association</h1>
       </header>
-      <h2>Card Componenets</h2>
      <main>
         <div className="container">
           <div className="card">
