@@ -29,7 +29,7 @@ function About() {
                 <br />
                 on highlander hub.
               </p>
-              <a href="/"> Learn More</a>
+              <a href="https://njit.campuslabs.com/engage/organization/rha"> Learn More</a>
             </div>
           </div>
 
