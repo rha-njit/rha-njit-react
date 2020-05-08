@@ -1,13 +1,11 @@
 import React from "react";
-import { Link } from "@reach/router";
 
 function NavItemInstagram(props){
   return (
     <li className="nav-item">
-        {/* Need to add instagram link*/}
-      <Link to="/" className="icon-button" >
+      <a href="https://www.instagram.com/njit_rha/?hl=en" className="icon-button" >
         {props.icon}
-      </Link>
+      </a>
     </li>
   );
 
