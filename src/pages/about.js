@@ -3,6 +3,7 @@ import WidgetBot from "@widgetbot/react-embed";
 
 import "./aboutStyle.css";
 import Logo from "../images/RHA_Logo_Vector.png";
+
 import PlanIcon from "../icons/plan.svg";
 import CheeseIcon from "../icons/cheese.svg";
 import NatureIcon from "../icons/nature.svg";
@@ -87,8 +88,7 @@ function About() {
           </div>
         </div>
       </main>
-      <footer>
-        <h1>RHA Discord Chat</h1>
+      <h1>RHA Discord Chat</h1>
         <h3>Ask Residence Hall Association</h3>
         {/*Fix channels that are avaible to public*/}
         <WidgetBot
@@ -98,6 +98,8 @@ function About() {
           height="600"
           shard="https://e.widgetbot.io"
         />
+      <footer>
+        <h4>NJIT RHA &copy; 2020. Made by RHA Technology Officer</h4>
       </footer>
     </div>
   );
