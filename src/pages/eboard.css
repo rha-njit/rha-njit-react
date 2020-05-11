@@ -1,0 +1,15 @@
+.eboard-header {
+    background-color: #282c34;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.eboard-header h1 {
+    padding-top: 5%;
+}
+.eboard-main {
+    background-color: #282c34;
+}
