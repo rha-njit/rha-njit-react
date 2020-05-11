@@ -2,7 +2,7 @@ import { Router, Link } from "@reach/router";
 
 import "./index.css";
 import About from "./pages/about";
-import Eboard from "./pages/eboard";
+import EboardV2 from "./pages/eboardV2";
 import Committees from "./pages/committees";
 import HallCouncils from "./pages/hallCouncils";
 import NavItemHome from "./components/navItemHome";
@@ -28,9 +28,7 @@ function App() {
   return (
 
     <div className="App">
-      
       <Navbar>
-        
         <NavItemHome icon={<HomeIcon />} />
         <NavItemInstagram icon={<InstagramIcon />} />
         <NavItemOfficeHours icon={<OfficeIcon />} />
@@ -42,7 +40,7 @@ function App() {
       
       <Router>
         <About default />
-        <Eboard path="/eboard" />
+        <EboardV2 path="/eboardV2" />
         <Committees path="/committees" />
         <HallCouncils path="/hallCouncils" />
       </Router>
@@ -106,7 +104,7 @@ function DropdownMenu() {
         unmountOnExit
         onEnter={calcHeight}>
         <div className="menu">
-          <DropdownItem leftIcon={<PeopleIcon />}><Link to="/eboard">Executive Board</Link></DropdownItem>
+          <DropdownItem leftIcon={<PeopleIcon />}><Link to="/eboardV2">Executive Board</Link></DropdownItem>
           <DropdownItem
             leftIcon={<HallIcon />}
             rightIcon={<ChevronIcon />}
