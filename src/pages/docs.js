@@ -7,7 +7,7 @@ function Docs() {
       <br />
       <br />
       <br />
-      <h1>Documents and Forms</h1>
+      <h1 style={{color: "white"}}>Documents and Forms</h1>
 
       <div className="wrapper">
         <div className="container-wrapper">
