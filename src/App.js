@@ -4,6 +4,7 @@ import "./index.css";
 import About from "./pages/about";
 import EboardV2 from "./pages/eboardV2";
 import Committees from "./pages/committees";
+import Docs from "./pages/docs";
 import HallCouncils from "./pages/hallCouncils";
 import NavItemHome from "./components/navItemHome";
 import NavItemInstagram from "./components/navItemInstagram";
@@ -40,6 +41,7 @@ function App() {
       
       <Router>
         <About default />
+        <Docs path="/docs"/>
         <EboardV2 path="/eboardV2" />
         <Committees path="/committees" />
         <HallCouncils path="/hallCouncils" />
@@ -117,7 +119,7 @@ function DropdownMenu() {
             goToMenu="committees">
             Committees
           </DropdownItem>
-          <DropdownItem leftIcon={<PlanIcon />}><Link to="/eboard">Documents/Forms</Link></DropdownItem>
+          <DropdownItem leftIcon={<PlanIcon />}><Link to="/docs">Documents/Forms</Link></DropdownItem>
 
         </div>
       </CSSTransition>
