@@ -157,7 +157,7 @@ function EboardV2() {
           </div>
         </div>
       </main>
-      <footer></footer>
+      <footer> <h4>NJIT RHA &copy; 2020. Made by RHA Technology Officer</h4></footer>
     </div>
   );
 }
