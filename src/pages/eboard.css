@@ -12,6 +12,7 @@
 }
 .eboard-header h1 {
     padding-top: 5%;
+    color: white;
 }
 .eboard-main {
     background-color: #282c34;
@@ -72,12 +73,14 @@
 .container-box .box .content-box h2{
     margin: 0;
     padding: 0;
+    color: white;
 }
 .container-box .box .content-box h2,
 .container-box .box .content-box p{
     opacity: 0;
     transition: 0.5s;
     transform: translateY(20px);
+    color: white;
 }
 .container-box .box:hover .content-box h2
 {
@@ -90,4 +93,12 @@
 	opacity: 1;
 	transform: translateY(0px);
 	transition-delay: 0.7s;
+}
+/* media queries */
+  
+@media(max-width: 768px) {
+    .container-box{
+        width: 280px;
+    }
+
 }
