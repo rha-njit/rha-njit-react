@@ -24,7 +24,7 @@ function Docs() {
               </div>
               <h4>GBM Agendas</h4>
               <p>This folder holds the adgenda for past and present general body meeting agendas.</p>
-              <a href="/">Documents</a>
+              <a href="https://drive.google.com/drive/folders/1zgUqQ6oKG0EuIohOePMMCwzQG9AGsOH6?usp=sharing">Documents</a>
             </div>
             <div className="cards_box">
               <div className="cards_icon">
@@ -53,7 +53,7 @@ function Docs() {
               <h4>GBM Meeting Minutes</h4>
               <p>These are the meeting minutes of the RHA General Body Meeting add
               every Friday atfer the meeting.</p>
-              <a href="/">Documents</a>
+              <a href="https://drive.google.com/drive/folders/1BeNbl9-Wn8VK-0XGKR6Qe4eCjE3wQT2l?usp=sharing">Documents</a>
             </div>
             <div className="cards_box">
               <div className="cards_icon">
@@ -68,7 +68,7 @@ function Docs() {
               <h4>Budgets</h4>
               <p>This is the budget of Residence Hall Association that is update
               regular by the treasurer.</p>
-              <a href="/">Documents</a>
+              <a href="https://drive.google.com/drive/folders/1XImIE5HnCgGMSWiT0lPtg1ImdPnXhJKT?usp=sharing">Documents</a>
             </div>
             <div className="cards_box">
               <div className="cards_icon">
@@ -82,7 +82,7 @@ function Docs() {
               </div>
               <h4>Proposal Form</h4>
               <p>Use to request money from the Residence Hall Association.</p>
-              <a href="/">Documents</a>
+              <a href="https://drive.google.com/drive/folders/124pVhbd4Y6304q5yKLn7adBVXZoIHq_X?usp=sharing">Documents</a>
             </div>
             <div className="cards_box">
               <div className="cards_icon">
@@ -96,7 +96,7 @@ function Docs() {
               </div>
               <h4>Machine Request Form</h4>
               <p>Use to get Residence Hall Association machine.</p>
-              <a href="/">Documents</a>
+              <a href="https://drive.google.com/drive/folders/124pVhbd4Y6304q5yKLn7adBVXZoIHq_X?usp=sharing">Documents</a>
             </div>
           </div>
         </div>
