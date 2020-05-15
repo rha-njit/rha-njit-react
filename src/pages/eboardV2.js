@@ -34,10 +34,9 @@ function EboardV2() {
             <div className="content-box">
               <h2>President</h2>
               <p>
-                What’s Up Everyone, my name Samuel Rumberger and I am the
-                President for RHA for the 2019-2020 school year. What I do is
-                oversee the day to day operations of RHA and handle the external
-                relations of RHA as well.
+                Samuel Rumberger<br />
+                Major: <br />
+                Information Technology
               </p>
             </div>
           </div>
@@ -51,8 +50,9 @@ function EboardV2() {
             <div className="content-box">
               <h2>Vice President of Programming</h2>
               <p>
-                Hey, my name is Reesha Gandhi, and I am the Vice President of
-                Programming for RHA!
+                Reesha Gandhi<br />
+                Major: <br/>
+                Human-Computer Interaction Major with a double degree in Business Information Systems
               </p>
             </div>
           </div>
@@ -63,8 +63,9 @@ function EboardV2() {
             <div className="content-box">
               <h2>Vice President of Administration</h2>
               <p>
-              Hi, my name is Austin Law and I am RHA’s Vice President of
-                Administration or VPA for short.
+                Austin Law<br />
+                Major: <br />
+                Information Technology
               </p>
             </div>
           </div>
@@ -75,7 +76,9 @@ function EboardV2() {
             <div className="content-box">
               <h2>National Communications Coordinator</h2>
               <p>
-              Hey y'all! My name is Portia Shaheed.
+                 Portia Shaheed<br />
+                 Major: <br />
+                 Biochemistry
               </p>
             </div>
           </div>
@@ -89,8 +92,9 @@ function EboardV2() {
             <div className="content-box">
               <h2>National Communications Coordinator in training</h2>
               <p>
-              Hey everyone! My name is Shruti Varshney and I am the National
-              Communications Coordinator in Training (NCCiT).
+                Shruti Varshney<br />
+                Major: <br />
+                Biomedical Engineering
               </p>
             </div>
           </div>
@@ -101,7 +105,9 @@ function EboardV2() {
             <div className="content-box">
               <h2>Treasurer</h2>
               <p>
-              My name is Matt Amato and I am the RHA treasurer.
+                Matt Amato<br />
+                Major: <br />
+                Computer Science
               </p>
             </div>
           </div>
@@ -112,7 +118,9 @@ function EboardV2() {
             <div className="content-box">
               <h2>Secretary</h2>
               <p>
-              My name is Trevor Stone Jr. I am the current RHA secretary.
+                Trevor Stone Jr.<br />
+                Major: <br />
+                Chemical Engineering
               </p>
             </div>
           </div>
@@ -126,8 +134,9 @@ function EboardV2() {
             <div className="content-box">
               <h2>Public Realtions Officer</h2>
               <p>
-              Hi! I am Saili Anil Sonawane. I am the Public
-              Relations Officer for RHA this year.
+                Saili Anil Sonawane<br />
+                Major: <br />
+                Business and Information systems
               </p>
             </div>
           </div>
@@ -138,9 +147,9 @@ function EboardV2() {
             <div className="content-box">
               <h2>Technology Officer</h2>
               <p>
-              Hello my name is Chanales. As Technology Officer, I am responsible
-              for creating and updating the RHA website and other technology
-              related things.
+                Chanales Flores<br />
+                Major: <br />
+                Information Technology
               </p>
             </div>
           </div>
@@ -151,7 +160,9 @@ function EboardV2() {
             <div className="content-box">
               <h2>Membership Officer</h2>
               <p>
-              My name is Mark Formichelli and I am the RHA Membership Officer.
+                Mark Formichelli<br />
+                Major: <br />
+                Civil Engineering
               </p>
             </div>
           </div>
