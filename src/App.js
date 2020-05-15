@@ -2,6 +2,7 @@ import { Router, Link } from "@reach/router";
 
 import "./index.css";
 import About from "./pages/about";
+import BOTH from "./pages/both";
 import EboardV2 from "./pages/eboardV2";
 import Committees from "./pages/committees";
 import Docs from "./pages/docs";
@@ -42,6 +43,7 @@ function App() {
       <Router>
         <About default />
         <Docs path="/docs"/>
+        <BOTH path="/both" />
         <EboardV2 path="/eboardV2" />
         <Committees path="/committees" />
         <HallCouncils path="/hallCouncils" />

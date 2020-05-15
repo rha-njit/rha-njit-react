@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 import WidgetBot from "@widgetbot/react-embed";
 
 import "./aboutStyle.css";
@@ -49,7 +50,7 @@ function About() {
                 <br />
                 Which will be given to the best hall of the year.
               </p>
-              <a href="/"> Learn More</a>
+              <Link to="/both">Learn More</Link>
             </div>
           </div>
 
