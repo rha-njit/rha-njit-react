@@ -83,7 +83,7 @@ function About() {
                 fundraiser to raise money for going to the <br />
                 conference.
               </p>
-              <a href="/"> Learn More</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1YEy7jbTBlVT_ew8v0d2tY7OYxudGd-gIRQaUm390kPf0zg/viewform?usp=sf_link"> Learn More</a>
             </div>
           </div>
         </div>
