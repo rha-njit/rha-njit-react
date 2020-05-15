@@ -107,12 +107,12 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem leftIcon={<PeopleIcon />}><Link to="/eboardV2">Executive Board</Link></DropdownItem>
-          <DropdownItem
+          {/*<DropdownItem
             leftIcon={<HallIcon />}
             rightIcon={<ChevronIcon />}
             goToMenu="hallCouncils">
             Hall Councils
-          </DropdownItem>
+          </DropdownItem>*/}
           <DropdownItem
             leftIcon={<PeopleIcon />}
             rightIcon={<ChevronIcon />}
