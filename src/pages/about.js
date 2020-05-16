@@ -65,7 +65,7 @@ function About() {
                 <br />
                 Learn more about RHA mission.
               </p>
-              <a href="/"> Learn More</a>
+              <Link to="/aboutRoots">Learn More</Link>
             </div>
           </div>
 
@@ -84,7 +84,7 @@ function About() {
                 fundraiser to raise money for going to the <br />
                 conference.
               </p>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1YEy7jbTBlVT_ew8v0d2tY7OYxudGd-gIRQaUm390kPf0zg/viewform?usp=sf_link"> Learn More</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1YEy7jbTBlVT_ew8v0d2tY7OYxudGd-gIRQaUm390kPf0zg/viewform?usp=sf_link">Buy Now</a>
             </div>
           </div>
         </div>
