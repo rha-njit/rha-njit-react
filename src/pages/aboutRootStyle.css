@@ -1,6 +1,6 @@
 .body-roots h1.title {
     font-size: 80px;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 .body-roots img{
     float: right;
@@ -12,6 +12,7 @@
     float: none;
     margin: 0;
     clip-path: none;
+    margin-left: 20%;
 }
 .body-roots img:hover{
     clip-path: circle(75%);
@@ -32,10 +33,10 @@
 .body-roots h3 {
     margin-left: 100px;
     color: white;
+    text-align: center;
 }
 @media (max-width: 414px){
     .body-roots img {
-        float: none;
         margin: 0;
     }
     .body-roots h2,

@@ -94,7 +94,7 @@ function About() {
         <WidgetBot
           server="309514846678810624"
           channel="309514846678810624"
-          width="90%"
+          width="100%"
           height="600"
           shard="https://e.widgetbot.io"
         />

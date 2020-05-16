@@ -15,7 +15,13 @@ main{
     align-items: center;
     min-height: 100vh;
 }
+footer{
+    text-align: center;
+}
 h1{
+    text-align: center;
+}
+h3{
     text-align: center;
 }
 img{
@@ -86,8 +92,9 @@ img{
     height: 100%;
     padding: 20px;
     /*display: flex;*/
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
+    text-align: center;
 }
 .container .card .content h3 {
     margin-bottom: 5px;
