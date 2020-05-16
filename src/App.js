@@ -8,7 +8,6 @@ import Docs from "./pages/docs";
 import Hours from "./pages/officeHours";
 import AboutRoots from "./pages/aboutRoots";
 
-import Committees from "./pages/committees";
 import HallCouncils from "./pages/hallCouncils";
 
 import NavItemHome from "./components/navItemHome";
@@ -52,7 +51,7 @@ function App() {
         <Hours path="/officeHours" />
         <AboutRoots path="/aboutRoots" />
 
-        <Committees path="/committees" />
+        
         <HallCouncils path="/hallCouncils" />
       </Router>
     </div>
