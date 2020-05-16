@@ -38,7 +38,7 @@ function Docs() {
               <h4>Our Constitution</h4>
               <p> This is the Constitution of Residence Hall Association that is
               update by the secretary.</p>
-              <a href="/">Documents</a>
+              <a href="https://drive.google.com/drive/folders/1jvb_lXFIpZcoddXwjmCGECYcdbI_meEc?usp=sharing">Documents</a>
             </div>
             <div className="cards_box">
               <div className="cards_icon">
