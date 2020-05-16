@@ -4,9 +4,13 @@ import "./index.css";
 import About from "./pages/about";
 import BOTH from "./pages/both";
 import EboardV2 from "./pages/eboardV2";
-import Committees from "./pages/committees";
 import Docs from "./pages/docs";
+import Hours from "./pages/officeHours";
+import AboutRoots from "./pages/aboutRoots";
+
+import Committees from "./pages/committees";
 import HallCouncils from "./pages/hallCouncils";
+
 import NavItemHome from "./components/navItemHome";
 import NavItemInstagram from "./components/navItemInstagram";
 import NavItemOfficeHours from "./components/navItemOfficeHours";
@@ -45,6 +49,9 @@ function App() {
         <Docs path="/docs"/>
         <BOTH path="/both" />
         <EboardV2 path="/eboardV2" />
+        <Hours path="/officeHours" />
+        <AboutRoots path="/aboutRoots" />
+
         <Committees path="/committees" />
         <HallCouncils path="/hallCouncils" />
       </Router>
@@ -109,12 +116,12 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem leftIcon={<PeopleIcon />}><Link to="/eboardV2">Executive Board</Link></DropdownItem>
-          {/*<DropdownItem
+          <DropdownItem
             leftIcon={<HallIcon />}
             rightIcon={<ChevronIcon />}
             goToMenu="hallCouncils">
             Hall Councils
-          </DropdownItem>*/}
+          </DropdownItem>
           <DropdownItem
             leftIcon={<PeopleIcon />}
             rightIcon={<ChevronIcon />}
