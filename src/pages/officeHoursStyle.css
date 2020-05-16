@@ -1,0 +1,12 @@
+.calendar-outside h1{
+    color: white;
+}
+.calendar{
+    background-color: lightgrey;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-size: 130%;
+    z-index: 0;
+}
