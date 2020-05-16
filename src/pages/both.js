@@ -1,10 +1,11 @@
 import React from "react";
+import "./bothStyle.css";
 
 function Both() {
   return (
     <div>
       <h1>Battle of Halls</h1>
-      <p>Spoons link should go here</p>
+      <h3>Spoons link should go here</h3>
     </div>
   );
 }
