@@ -1,0 +1,46 @@
+.body-roots h1.title {
+    font-size: 80px;
+    padding-top: 60px;
+}
+.body-roots img{
+    float: right;
+    margin-right: 60px;
+    clip-path: circle(25%);
+    transition: clip-path 1s;
+}
+.body-roots img.no-effect{
+    float: none;
+    margin: 0;
+    clip-path: none;
+}
+.body-roots img:hover{
+    clip-path: circle(75%);
+}
+
+.body-roots .programming {
+    padding-top: 100px;
+    align-items: center;
+}
+.body-roots .leadership{
+    padding-top: 100px;
+    align-items: center;
+} 
+.body-roots h1{
+    color: white;
+}
+.body-roots h2,
+.body-roots h3 {
+    margin-left: 100px;
+    color: white;
+}
+@media (max-width: 414px){
+    .body-roots img {
+        float: none;
+        margin: 0;
+    }
+    .body-roots h2,
+    .body-roots h3 {
+        margin-left: 0;
+
+    }
+}
