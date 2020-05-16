@@ -35,7 +35,7 @@ function About() {
             </div>
           </div>
 
-          <div className="card">
+          {/*<div className="card">
             <div className="imgBx" data-text="Both">
               <img src={BothIcon} alt="icon" />
             </div>
@@ -52,7 +52,7 @@ function About() {
               </p>
               <Link to="/both">Learn More</Link>
             </div>
-          </div>
+          </div>*/}
 
           <div className="card">
             <div className="imgBx" data-text="Roots">
