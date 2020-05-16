@@ -47,8 +47,8 @@ function About() {
                 <br />
                 All Halls at NJIT will battle it out for the <br />
                 BoTH Trophy.
-                <br />
-                Which will be given to the best hall of the year.
+                Which will be given to the <br />
+                best hall of the year.
               </p>
               <Link to="/both">Learn More</Link>
             </div>
@@ -78,10 +78,9 @@ function About() {
               <p>
                 Host by our very own delegation committee.
                 <br />
-                Every week the committee will host a <br />
+                Every week the committee will host a <br />           
                 grilled cheese.
-                <br />
-                fundraiser to raise money for going to the <br />
+                fundraiser to raise money for <br /> going to the
                 conference.
               </p>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1YEy7jbTBlVT_ew8v0d2tY7OYxudGd-gIRQaUm390kPf0zg/viewform?usp=sf_link">Buy Now</a>
