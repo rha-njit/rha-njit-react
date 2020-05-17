@@ -27,9 +27,9 @@ Other Technologies Use:
 ## Setup
 To run this project, on the Apache Web Server that supports PHP and MySql:
 
-Make sure to have the .htaccess file in the public folder
-You can then use the npm run build to build the project
-You can the pull all the folder an files in the build folder to the Apache Web Server
+* Make sure to have the .htaccess file in the public folder
+* You can then use the npm run build to build the project
+* You can the pull all the folder an files in the build folder to the Apache Web Server
 
 
 ## Available Scripts
