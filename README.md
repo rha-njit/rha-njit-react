@@ -2,14 +2,33 @@
 
 Stack Residence Hall Association Website:
 
-React.js,PHP
+React.js, PHP
 ## Table of contents
 * [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup] (#setup)
 * [Available Scripts](#available-scripts)
 
 ## General Info
 
 The Main Website create for Residence Hall Association at NJIT.
+
+## Technologies
+Project is created with:
+* Front-End: React.js
+Technology for Moving Files:
+* [MobaXterm](https://mobaxterm.mobatek.net/) for Mac/Linux Users
+* [FileZilla](https://filezilla-project.org/) for Window Users
+Other Technologies Use:
+* Google Calednar API
+
+## Setup
+To run this project, on the Apache Web Server that supports PHP and MySql:
+
+Make sure to have the .htaccess file in the public folder
+You can then use the npm run build to build the project
+You can the pull all the folder an files in the build folder to the Apache Web Server
+
 
 ## Available Scripts
 
