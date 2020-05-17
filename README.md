@@ -9,7 +9,7 @@ React.js,PHP
 
 ## General Info
 
-Website create for Residence Hall Association.
+The Main Website create for Residence Hall Association at NJIT.
 
 ## Available Scripts
 
