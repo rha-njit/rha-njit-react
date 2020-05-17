@@ -2,7 +2,7 @@
 
 Stack Residence Hall Association Website:
 
-    React.js,PHP
+React.js,PHP
 ## Table of contents
 * [General info](#general-info)
 * [Available Scripts](#available-scripts)
