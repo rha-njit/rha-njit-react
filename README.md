@@ -1,3 +1,7 @@
+# Residence Hall Association Website
+
+Stack for Residence Hall Association:
+    React.js,PHP
 
 ## Available Scripts
 
