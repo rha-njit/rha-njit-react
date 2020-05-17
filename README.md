@@ -1,7 +1,15 @@
 # Residence Hall Association Website
 
-Stack for Residence Hall Association:
+Stack Residence Hall Association Website:
+
     React.js,PHP
+## Table of contents
+* [General info](#general-info)
+* [Available Scripts](#available-scripts)
+
+## General Info
+
+Website create for Residence Hall Association.
 
 ## Available Scripts
 
