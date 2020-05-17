@@ -6,7 +6,7 @@ React.js, PHP
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup] (#setup)
+* [Setup](#setup)
 * [Available Scripts](#available-scripts)
 
 ## General Info
