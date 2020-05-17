@@ -16,9 +16,11 @@ The Main Website create for Residence Hall Association at NJIT.
 ## Technologies
 Project is created with:
 * Front-End: React.js
+
 Technology for Moving Files:
 * [MobaXterm](https://mobaxterm.mobatek.net/) for Mac/Linux Users
 * [FileZilla](https://filezilla-project.org/) for Window Users
+
 Other Technologies Use:
 * Google Calednar API
 
