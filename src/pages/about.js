@@ -89,7 +89,6 @@ function About() {
         </div>
       </main>
       <h1>RHA Discord Chat</h1>
-        <h3>Ask Residence Hall Association</h3>
         {/*Fix channels that are avaible to public*/}
         <WidgetBot
           server="309514846678810624"
