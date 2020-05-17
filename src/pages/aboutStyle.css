@@ -15,6 +15,9 @@ main{
     align-items: center;
     min-height: 100vh;
 }
+div.div-center {
+    text-align: center;
+}
 footer{
     text-align: center;
 }

@@ -89,14 +89,15 @@ function About() {
         </div>
       </main>
       <h1>RHA Discord Chat</h1>
-        {/*Fix channels that are avaible to public*/}
+        <div className="div-center">
         <WidgetBot
           server="309514846678810624"
-          channel="309514846678810624"
-          width="100%"
+          channel="711375934913118307"
+          width="80%"
           height="600"
           shard="https://e.widgetbot.io"
         />
+        </div>
       <footer>
         <h4>NJIT RHA &copy; 2020. Made by RHA Technology Officer</h4>
       </footer>
