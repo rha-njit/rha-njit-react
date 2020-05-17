@@ -1,6 +1,7 @@
 # Residence Hall Association Website
 
 Main Residence Hall Association Website:
+
 Stack: React.js, PHP
 ## Table of contents
 * [General info](#general-info)
