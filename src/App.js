@@ -13,18 +13,18 @@ import HallCouncils from "./pages/hallCouncils";
 import NavItemHome from "./components/navItemHome";
 import NavItemInstagram from "./components/navItemInstagram";
 import NavItemOfficeHours from "./components/navItemOfficeHours";
+import NavItemMinecraft from "./components/navItemMinecraft";
 
 import { ReactComponent as PlanIcon } from "./icons/plan.svg";
 import { ReactComponent as ArrowIcon } from "./icons/arrow.svg";
 import { ReactComponent as CaretIcon } from "./icons/caret.svg";
-import { ReactComponent as ChevronIcon } from "./icons/chevron.svg";
 import { ReactComponent as InstagramIcon } from "./icons/instagram.svg";
 import { ReactComponent as HomeIcon } from "./icons/house-black-24dp.svg";
 import { ReactComponent as PeopleIcon } from "./icons/people-black-24dp.svg";
 import { ReactComponent as EachHallIcon } from "./icons/apartment-black-24dp.svg";
 import { ReactComponent as OfficeIcon } from "./icons/date_range-black-24dp.svg";
-import { ReactComponent as HallIcon } from "./icons/location_city-black-24dp.svg";
 import { ReactComponent as PlaneIcon } from "./icons/flight_takeoff-black-24dp.svg";
+import { ReactComponent as MineCraft } from "./icons/mcraft.svg";
 
 import React, { useState, useEffect, useRef } from "react";
 import { CSSTransition } from "react-transition-group";
@@ -37,6 +37,7 @@ function App() {
         <NavItemHome icon={<HomeIcon />} />
         <NavItemInstagram icon={<InstagramIcon />} />
         <NavItemOfficeHours icon={<OfficeIcon />} />
+        <NavItemMinecraft icon={<MineCraft />} /> 
 
         <NavItem icon={<CaretIcon />}>
           <DropdownMenu></DropdownMenu>
@@ -50,9 +51,8 @@ function App() {
         <EboardV2 path="/eboardV2" />
         <Hours path="/officeHours" />
         <AboutRoots path="/aboutRoots" />
-
-        
         <HallCouncils path="/hallCouncils" />
+        <mcraftserv path="mcraftserv" />
       </Router>
     </div>
   );
@@ -128,6 +128,7 @@ function DropdownMenu() {
             Committees
           </DropdownItem>*/}
           <DropdownItem leftIcon={<PlanIcon />}><Link to="/docs">Documents/Forms</Link></DropdownItem>
+          <DropdownItem leftIcon={<MineCraft />}><Link to="/mcraftserv">MineCraft</Link></DropdownItem>
 
         </div>
       </CSSTransition>
@@ -144,6 +145,7 @@ function DropdownMenu() {
           </DropdownItem>
           <DropdownItem leftIcon={<PlanIcon />}>Programming Committee</DropdownItem>
           <DropdownItem leftIcon={<PlaneIcon />}>Delegation Committee</DropdownItem>
+          <DropdownItem leftIcon={<MineCraft />}><Link to="/rhaserver">MineCraft</Link></DropdownItem>
         </div>
       </CSSTransition>
 

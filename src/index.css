@@ -1,6 +1,9 @@
+title{
+  color: black;
+}
 body {
   margin: 0;
-  background: #282c34;
+  background: #d9dbe0;
   font-family: roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -168,4 +171,20 @@ a {
 .menu-secondary-exit-active {
   transform: translateX(110%);
   transition: all var(--speed) ease;
+}
+footer {
+  background-color: #931420;
+  clear: both;
+
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: aliceblue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.5rem;
 }
