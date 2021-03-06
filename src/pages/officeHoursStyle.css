@@ -1,5 +1,21 @@
+/* Style for the elements */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+}
 .calendar-outside h1{
-    color: white;
+    margin: 0;
+    padding: 0;
+    color:black;
 }
 .calendar{
     background-color: lightgrey;
@@ -9,4 +25,25 @@
     color: black;
     font-size: 130%;
     z-index: 0;
+}
+header h2 {
+    font-size: 175%;
+    text-align: center;
+    color: #800000;
+}
+/* the styles for the footer */
+footer {
+    background-color: grey;
+    clear: both;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
 }

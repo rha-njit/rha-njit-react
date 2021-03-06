@@ -68,7 +68,7 @@ function Roots() {
         />
       </div>
       <footer>
-        <h4>NJIT RHA &copy; 2020. Made by RHA Technology Officer</h4>
+        <h4>NJIT RHA &copy; 2021. Made by RHA Technology Officer</h4>
       </footer>
     </div>
   );

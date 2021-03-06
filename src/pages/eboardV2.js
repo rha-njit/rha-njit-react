@@ -1,20 +1,36 @@
 import React from "react";
 import "./eboard.css";
 
-import Mark from "../images/eboard/mark2.jpg";
-import Matt from "../images/eboard/matt2.jpg";
-import Sam from "../images/eboard/sam2.jpg";
-import Sidehoe from "../images/sideHoe2.png";
-import Austin from "../images/eboard/Austin2.jpg";
-import Chanales from "../images/eboard/chanales2.png";
-import Portia from "../images/eboard/portia2.jpg";
-import Reesha from "../images/eboard/reesha2.jpg";
-import Shruti from "../images/eboard/shruti2.jpg";
-import Saili from "../images/eboard/saili2.jpg";
-import Trevor from "../images/eboard/trevor22.png";
+import Jason from "../images/eboard/JasonA.jpeg";
+import Sidehoe from "../images/sideHoe.png";
+import Carla from "../images/eboard/CarlaB.jpeg";
+import Connor from "../images/eboard/ConnorM.jpeg";
+import Darsh from "../images/eboard/DarshS.jpg";
+import Eden from "../images/eboard/EdenD.jpeg";
+import Karm from "../images/eboard/KarmD.JPG";
+import Muhammad from "../images/eboard/MoeW.jpeg";
+import Nick from "../images/eboard/Nick_NCCiT.jpeg";
+import Shruti from "../images/eboard/ShrutiV.jpg";
+import Will from "..//images/eboard/WillB.jpeg";
+
 
 function EboardV2() {
   return (
+  //   <div>
+  //     id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"
+  //   </div>
+  // <div class="carousel-inner">
+  //   <div class="carousel-item active">
+  //     <img class="d-block w-100" src="..." alt="First slide">
+  //   </div>
+  //   <div class="carousel-item">
+  //     <img class="d-block w-100" src="..." alt="Second slide">
+  //   </div>
+  //   <div class="carousel-item">
+  //     <img class="d-block w-100" src="..." alt="Third slide">
+  //   </div>
+  // </div>
+// </div>
     <div className="eboard-body">
       <div className="eboard-header">
         <img className="leftHouse" src={Sidehoe} width="25%" alt="redHouse" />
@@ -29,14 +45,16 @@ function EboardV2() {
         <div className="container-box">
           <div className="box">
             <div className="imgBox">
-              <img src={Sam} alt="Eboard_Pic"/>
+              <img src={Jason} alt="Eboard_Pic"/>
             </div>
             <div className="content-box">
               <h2>President</h2>
               <p>
-                Samuel Rumberger<br />
+                Jason Antonik<br />
                 Major: <br />
-                Information Technology
+                Mechanical Engineering <br />
+                Year: <br />
+                Senior 
               </p>
             </div>
           </div>
@@ -45,40 +63,46 @@ function EboardV2() {
         <div className="container-box">
           <div className="box">
             <div className="imgBox">
-              <img src={Reesha} alt="Eboard_Pic"/>
+              <img src={Connor} alt="Eboard_Pic"/>
             </div>
             <div className="content-box">
               <h2>Vice President of Programming</h2>
               <p>
-                Reesha Gandhi<br />
+                Connor Maguire<br />
                 Major: <br/>
-                Human-Computer Interaction Major with a double degree in Business Information Systems
+                Civil Engineering <br />
+                Year: <br />
+                Sophomore
               </p>
             </div>
           </div>
           <div className="box">
             <div className="imgBox">
-              <img src={Austin} alt="Eboard_Pic"/>
+              <img src={Eden} alt="Eboard_Pic_VPA"/>
             </div>
             <div className="content-box">
               <h2>Vice President of Administration</h2>
               <p>
-                Austin Law<br />
+                Eden Dubrovsky<br />
                 Major: <br />
-                Information Technology
+                Computer Science <br />
+                Year: <br />
+                Sophomore
               </p>
             </div>
           </div>
           <div className="box">
             <div className="imgBox">
-              <img src={Portia} alt="Eboard_Pic"/>
+              <img src={Shruti} alt="Eboard_Pic_NCC"/>
             </div>
             <div className="content-box">
               <h2>National Communications Coordinator</h2>
               <p>
-                 Portia Shaheed<br />
+                 Shruti Varshney<br />
                  Major: <br />
-                 Biochemistry
+                 Biomedical Engineering / Pre Health
+                 Year: <br />
+                 Junior
               </p>
             </div>
           </div>
@@ -87,40 +111,45 @@ function EboardV2() {
         <div className="container-box">
           <div className="box">
             <div className="imgBox">
-              <img src={Shruti} alt="Eboard_Pic"/>
+              <img src={Nick} alt="Eboard_Pic"/>
             </div>
             <div className="content-box">
               <h2>National Communications Coordinator in training</h2>
               <p>
-                Shruti Varshney<br />
+                Nick Furth<br />
                 Major: <br />
-                Biomedical Engineering
+                Computer Engineering BS/MS
+                Year:
+                Senior
               </p>
             </div>
           </div>
           <div className="box">
             <div className="imgBox">
-              <img src={Matt} alt="Eboard_Pic"/>
+              <img src={Muhammad} alt="Eboard_Pic"/>
             </div>
             <div className="content-box">
               <h2>Treasurer</h2>
               <p>
-                Matt Amato<br />
+                Muhammad Waleed Cheema<br />
                 Major: <br />
-                Computer Science
+                Financial Technology
+                Sophomore
               </p>
             </div>
           </div>
           <div className="box">
             <div className="imgBox">
-              <img src={Trevor} alt="Eboard_Pic"/>
+              <img src={Darsh} alt="Eboard_Pic"/>
             </div>
             <div className="content-box">
               <h2>Secretary</h2>
               <p>
-                Trevor Stone Jr.<br />
+                Darsh Saravanan<br />
                 Major: <br />
-                Chemical Engineering
+                Information Technology
+                Year <br />
+                Sophomore
               </p>
             </div>
           </div>
@@ -129,46 +158,53 @@ function EboardV2() {
         <div className="container-box">
           <div className="box">
             <div className="imgBox">
-              <img src={Saili} alt="Eboard_Pic"/>
+              <img src={Carla} alt="Eboard_Pic_PR"/>
             </div>
             <div className="content-box">
               <h2>Public Realtions Officer</h2>
               <p>
-                Saili Anil Sonawane<br />
+                Carla Blandura<br />
                 Major: <br />
-                Business and Information systems
+                Biomedical Engineering <br />
+                Year <br />
+                Sophomore
               </p>
             </div>
           </div>
           <div className="box">
             <div className="imgBox">
-              <img src={Chanales} alt="Eboard_Pic"/>
+              <img src={Karm} alt="Eboard_Pic_TO"/>
             </div>
             <div className="content-box">
               <h2>Technology Officer</h2>
               <p>
-                Chanales Flores<br />
+                Karm Desai<br />
                 Major: <br />
-                Information Technology
+                Business and Information Systems <br />
+                Year: <br />
+                Senior
               </p>
             </div>
           </div>
           <div className="box">
             <div className="imgBox">
-              <img src={Mark} alt="Eboard_Pic"/>
+              <img src={Will} alt="Eboard_Pic_MO"/>
             </div>
             <div className="content-box">
               <h2>Membership Officer</h2>
               <p>
-                Mark Formichelli<br />
+                Will Brevedh<br />
                 Major: <br />
-                Civil Engineering
+                Construction Engineering <br />
+                Concrete Industry Managment <br />
+                Year: <br />
+                Sophomore
               </p>
             </div>
           </div>
         </div>
       </main>
-      <footer> <h4>NJIT RHA &copy; 2020. Made by RHA Technology Officer</h4></footer>
+      <footer> <h4>NJIT RHA &copy; 2021. Made by RHA Technology Officer</h4></footer>
     </div>
   );
 }

@@ -6,16 +6,16 @@ import "./aboutStyle.css";
 import Logo from "../images/RHA_Logo_Vector.png";
 
 import PlanIcon from "../icons/plan.svg";
-import CheeseIcon from "../icons/cheese.svg";
+import MineCraftIcon from "../icons/mcraft.svg";
 import NatureIcon from "../icons/nature.svg";
-import BothIcon from "../icons/sports-and-competition.svg";
+import MeetingIcon from "../icons/video-conference.svg";
 
 function About() {
   return (
     <div>
       <header>
         <img src={Logo} alt="RHA Logo" width="300" height="300" />
-        <h1>Residence Hall Association</h1>
+        <h1 >Residence Hall Association</h1>
       </header>
       <main>
         <div className="container">
@@ -35,24 +35,21 @@ function About() {
             </div>
           </div>
 
-          {/*<div className="card">
-            <div className="imgBx" data-text="Both">
-              <img src={BothIcon} alt="icon" />
+          <div className="card">
+            <div className="imgBx" data-text="GBM">
+              <img src={MeetingIcon} alt="icon" />
             </div>
             <div className="content">
-              <h3>Battle Of Halls</h3>
+              <h3>General Board Meetings</h3>
               <p>
                 {" "}
-                A big event that spawns an entire week.
+                Join us in our weekly General Board Meetings
                 <br />
-                All Halls at NJIT will battle it out for the <br />
-                BoTH Trophy.
-                Which will be given to the <br />
-                best hall of the year.
+                Every Friday at 11:30 am
               </p>
-              <Link to="/both">Learn More</Link>
+              <a href="https://njit.webex.com/njit/j.php?MTID=mb4dc150da9cd24f3dabe290beca23aa6"> Webex Link </a>
             </div>
-          </div>*/}
+          </div>
 
           <div className="card">
             <div className="imgBx" data-text="Roots">
@@ -70,24 +67,21 @@ function About() {
           </div>
 
           <div className="card">
-            <div className="imgBx" data-text="Grilled">
-              <img src={CheeseIcon} alt="icon" />
+            <div className="imgBx" data-text="MineCraft">
+              <img src={MineCraftIcon} alt="icon" />
             </div>
             <div className="content">
-              <h3>Grilled Cheese</h3>
+              <h3>RHA-MineCraft Xerver</h3>
               <p>
-                Host by our very own delegation committee.
+                Play MineCraft on our NJIT's MineCraft Server.
                 <br />
-                Every week the committee will host a <br />           
-                grilled cheese.
-                fundraiser to raise money for <br /> going to the
-                conference.
               </p>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1YEy7jbTBlVT_ew8v0d2tY7OYxudGd-gIRQaUm390kPf0zg/viewform?usp=sf_link">Buy Now</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1YEy7jbTBlVT_ew8v0d2tY7OYxudGd-gIRQaUm390kPf0zg/viewform?usp=sf_link">Join Now</a>
             </div>
           </div>
         </div>
       </main>
+
       <h1>RHA Discord Chat</h1>
         <div className="div-center">
         <WidgetBot
@@ -99,9 +93,10 @@ function About() {
         />
         </div>
       <footer>
-        <h4>NJIT RHA &copy; 2020. Made by RHA Technology Officer</h4>
+        <h4>NJIT RHA &copy; 2021. Made by RHA Technology Officer</h4>
       </footer>
     </div>
+    
   );
 }
 export default About;

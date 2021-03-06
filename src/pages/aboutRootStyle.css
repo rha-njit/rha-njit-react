@@ -1,4 +1,5 @@
 .body-roots h1.title {
+    color: black;
     font-size: 80px;
     padding-top: 50px;
 }
@@ -27,12 +28,12 @@
     align-items: center;
 } 
 .body-roots h1{
-    color: white;
+    color:black;
 }
 .body-roots h2,
 .body-roots h3 {
     margin-left: 100px;
-    color: white;
+    color: black;
     text-align: center;
 }
 @media (max-width: 414px){
